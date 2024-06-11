@@ -1,6 +1,5 @@
-// src/components/Home.js
 import React from 'react';
-import '../css/Home.css'; // Import external CSS file
+import '../css/Home.css';
 
 function Home({ user, logout }) {
   return (

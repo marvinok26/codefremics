@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../css/CustomerList.css'; // Import external CSS file
+import '../css/CustomerList.css';
 
 function CustomerList({ token, selectCustomer }) {
   const [customers, setCustomers] = useState([]);
@@ -13,8 +13,8 @@ function CustomerList({ token, selectCustomer }) {
       const response = await axios.get('https://stemprotocol.codefremics.com/api/v2/customers/get-merchantcustomers/1', {
         headers: { Authorization: `Bearer ${token}` }
       });
-      setCustomers(response.data.response.response); // Access the response property
-      setError(null);  // Clear any previous errors
+      setCustomers(response.data.response.response);
+      setError(null); 
     } catch (err) {
       console.error('Error fetching customers', err);
       setError('Failed to fetch customers. Please try again later.');

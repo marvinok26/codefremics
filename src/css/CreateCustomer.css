@@ -1,6 +1,5 @@
-/* src/components/CreateCustomer.css */
 .create-customer-container {
-    max-width: 400px; /* Adjust as needed */
+    max-width: 400px;
     margin: 2rem auto;
     padding: 20px;
     border: 1px solid #ccc;

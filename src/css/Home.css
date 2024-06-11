@@ -1,9 +1,8 @@
-/* src/components/Home.css */
 .home-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 600px; /* Adjust as needed */
+    max-width: 600px;
     margin: 2rem auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -12,7 +11,7 @@
   }
   
   .welcome-container {
-    flex: 1; /* Take remaining space */
+    flex: 1;
   }
   
   .welcome-message {
@@ -21,11 +20,11 @@
   }
   
   .logout-container {
-    margin-left: 20px; /* Add space between welcome message and logout button */
+    margin-left: 20px;
   }
   
   .logout-button {
-    padding: 10px 20px; /* Add padding to make button more clickable */
+    padding: 10px 20px;
     background-color: #dc3545;
     color: #fff;
     border: none;

@@ -1,7 +1,6 @@
-// src/components/CreateCustomer.js
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../css/CreateCustomer.css'; // Import external CSS file
+import '../css/CreateCustomer.css';
 
 function CreateCustomer({ token }) {
   const [customer, setCustomer] = useState({
