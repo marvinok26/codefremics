@@ -1,0 +1,39 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px; /* Adjust as needed */
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .welcome-container {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .welcome-message {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .logout-container {
+    margin-left: 20px; /* Add space between welcome message and logout button */
+  }
+  
+  .logout-button {
+    padding: 10px 20px; /* Add padding to make button more clickable */
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
